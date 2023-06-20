@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Style=Full color, Language=PT, Background=Off.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,33 @@
+source 'https://cdn.cocoapods.org/'
+source 'git@github.com:mercadolibre/mobile-ios_specs.git'
+
+# This plugin removes input and output files from 'Copy Pods Resources' build phases
+# because this issue https://github.com/CocoaPods/CocoaPods/issues/7042
+# replaces disable input output paths, its a less invasive workaround
+plugin 'cocoapods-clean_build_phases_scripts'
+plugin 'cocoapods-whitelist'
+plugin 'cocoapods-precompiled'
+
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+install! 'cocoapods', :disable_input_output_paths => true
+
+target 'inimigos-do-desespero' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for inimigos-do-desespero
+  pod 'MLLocalStorage'
+  pod 'MLLogin/MercadoLibre'
+
+  #target 'inimigos-do-desesperoTests' do
+#    inherit! :search_paths
+    # Pods for testing
+ # end
+
+#  target 'inimigos-do-desesperoUITests' do
+    # Pods for testing
+ # end
+
+end
+

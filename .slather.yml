@@ -1,0 +1,10 @@
+coverage_service: cobertura_xml
+scheme: testapp
+xcodeproj: Example/AppIosW2InimigosDessespero.xcodeproj
+workspace: AppIosW2InimigosDessespero.xcworkspace
+source_directory: LibraryComponents
+output_directory: coverage
+ignore:
+ - ../**/*/Xcode*
+ - Example/*
+ - Pods/*

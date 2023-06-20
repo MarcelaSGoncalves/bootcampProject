@@ -1,0 +1,31 @@
+{
+  "name": "AppIosW2InimigosDessespero",
+  "version": "0.1.0",
+  "summary": "AppIosW2InimigosDessespero library for ios app.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mercadolibre/fury_app-ios-w2-inimigos-dessespero",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ext_feteruel": "ext_feteruel@mercadolibre.com"
+  },
+  "source": {
+    "git": "git@github.com:mercadolibre/fury_app-ios-w2-inimigos-dessespero.git",
+    "tag": "0.1.0"
+  },
+  "static_framework": true,
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "LibraryComponents/Classes/**/*.{h,m,swift}",
+  "dependencies": {
+    "MLCommons": [
+      "~> 1.23"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  }
+}

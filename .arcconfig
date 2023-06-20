@@ -1,0 +1,8 @@
+{
+    "project_id" : "AppIosW2InimigosDessespero",
+    "load": [
+        "/usr/local/opt/arc-lint"
+    ],
+    "xcodebuild.workspace": "AppIosW2InimigosDessespero.xcworkspace",
+    "xcodebuild.scheme": "testapp"
+}

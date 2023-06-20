@@ -1,0 +1,920 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		577463812226CBC300A9B71D /* AppIosW2InimigosDessesperoExamplePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577463712226CBC300A9B71D /* AppIosW2InimigosDessesperoExamplePresenter.swift */; };
+		577463822226CBC300A9B71D /* AppIosW2InimigosDessesperoExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577463732226CBC300A9B71D /* AppIosW2InimigosDessesperoExampleViewController.swift */; };
+		577463832226CBC300A9B71D /* AppIosW2InimigosDessesperoExampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577463752226CBC300A9B71D /* AppIosW2InimigosDessesperoExampleModel.swift */; };
+		577463842226CBC300A9B71D /* AppIosW2InimigosDessesperoExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 577463772226CBC300A9B71D /* AppIosW2InimigosDessesperoExampleViewController.xib */; };
+		577463852226CBC300A9B71D /* AppIosW2InimigosDessesperoFaqsExamplePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5774637A2226CBC300A9B71D /* AppIosW2InimigosDessesperoFaqsExamplePresenter.swift */; };
+		577463862226CBC300A9B71D /* AppIosW2InimigosDessesperoFaqsExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5774637C2226CBC300A9B71D /* AppIosW2InimigosDessesperoFaqsExampleViewController.swift */; };
+		577463872226CBC300A9B71D /* AppIosW2InimigosDessesperoFaqsExampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5774637E2226CBC300A9B71D /* AppIosW2InimigosDessesperoFaqsExampleModel.swift */; };
+		577463882226CBC300A9B71D /* AppIosW2InimigosDessesperoFaqsExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 577463802226CBC300A9B71D /* AppIosW2InimigosDessesperoFaqsExampleViewController.xib */; };
+		57F34E932225DE0900454D8B /* AppIosW2InimigosDessesperoExampleCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F34E7B2225DE0800454D8B /* AppIosW2InimigosDessesperoExampleCoordinator.swift */; };
+		57F34E942225DE0900454D8B /* AppIosW2InimigosDessesperoExampleAppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F34E7C2225DE0800454D8B /* AppIosW2InimigosDessesperoExampleAppCoordinator.swift */; };
+		57F34E9E2225DE0900454D8B /* AppIosW2InimigosDessesperoAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F34E912225DE0900454D8B /* AppIosW2InimigosDessesperoAppDelegate.swift */; };
+		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
+		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		7655DC64FAB6D917FC79065A /* Pods_AppIosW2InimigosDessespero_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2C294C18547CBC81AFE83B /* Pods_AppIosW2InimigosDessespero_Tests.framework */; };
+		8A4A35DCC0FBA9C7200D152C /* Pods_AppIosW2InimigosDessespero_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCFCA5C2340BCA7FAC7DF47A /* Pods_AppIosW2InimigosDessespero_Example.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = AppIosW2InimigosDessespero;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BAB63551CBE96DAAD772E0A /* Pods-AppIosW2InimigosDessespero_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppIosW2InimigosDessespero_Example.debug.xcconfig"; path = "Target Support Files/Pods-AppIosW2InimigosDessespero_Example/Pods-AppIosW2InimigosDessespero_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		577463712226CBC300A9B71D /* AppIosW2InimigosDessesperoExamplePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppIosW2InimigosDessesperoExamplePresenter.swift; sourceTree = "<group>"; };
+		577463732226CBC300A9B71D /* AppIosW2InimigosDessesperoExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppIosW2InimigosDessesperoExampleViewController.swift; sourceTree = "<group>"; };
+		577463752226CBC300A9B71D /* AppIosW2InimigosDessesperoExampleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppIosW2InimigosDessesperoExampleModel.swift; sourceTree = "<group>"; };
+		577463772226CBC300A9B71D /* AppIosW2InimigosDessesperoExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppIosW2InimigosDessesperoExampleViewController.xib; sourceTree = "<group>"; };
+		5774637A2226CBC300A9B71D /* AppIosW2InimigosDessesperoFaqsExamplePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppIosW2InimigosDessesperoFaqsExamplePresenter.swift; sourceTree = "<group>"; };
+		5774637C2226CBC300A9B71D /* AppIosW2InimigosDessesperoFaqsExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppIosW2InimigosDessesperoFaqsExampleViewController.swift; sourceTree = "<group>"; };
+		5774637E2226CBC300A9B71D /* AppIosW2InimigosDessesperoFaqsExampleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppIosW2InimigosDessesperoFaqsExampleModel.swift; sourceTree = "<group>"; };
+		577463802226CBC300A9B71D /* AppIosW2InimigosDessesperoFaqsExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppIosW2InimigosDessesperoFaqsExampleViewController.xib; sourceTree = "<group>"; };
+		57ED041E2226FD1200614168 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F34E7B2225DE0800454D8B /* AppIosW2InimigosDessesperoExampleCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppIosW2InimigosDessesperoExampleCoordinator.swift; sourceTree = "<group>"; };
+		57F34E7C2225DE0800454D8B /* AppIosW2InimigosDessesperoExampleAppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppIosW2InimigosDessesperoExampleAppCoordinator.swift; sourceTree = "<group>"; };
+		57F34E912225DE0900454D8B /* AppIosW2InimigosDessesperoAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppIosW2InimigosDessesperoAppDelegate.swift; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* AppIosW2InimigosDessespero_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppIosW2InimigosDessespero_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD41AFB9204008FA782 /* AppIosW2InimigosDessespero-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AppIosW2InimigosDessespero-Info.plist"; sourceTree = "<group>"; };
+		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		607FACE51AFB9204008FA782 /* AppIosW2InimigosDessespero_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppIosW2InimigosDessespero_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		6C41A21978ECAEFBB0145DF9 /* Pods-AppIosW2InimigosDessespero_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppIosW2InimigosDessespero_Example.release.xcconfig"; path = "Target Support Files/Pods-AppIosW2InimigosDessespero_Example/Pods-AppIosW2InimigosDessespero_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A20165084117A73C0C11CBCB /* Pods-AppIosW2InimigosDessespero_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppIosW2InimigosDessespero_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AppIosW2InimigosDessespero_Tests/Pods-AppIosW2InimigosDessespero_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCFCA5C2340BCA7FAC7DF47A /* Pods_AppIosW2InimigosDessespero_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppIosW2InimigosDessespero_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE68A9578E8E61375427382 /* Pods-AppIosW2InimigosDessespero_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppIosW2InimigosDessespero_Tests.release.xcconfig"; path = "Target Support Files/Pods-AppIosW2InimigosDessespero_Tests/Pods-AppIosW2InimigosDessespero_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FB2C294C18547CBC81AFE83B /* Pods_AppIosW2InimigosDessespero_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppIosW2InimigosDessespero_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		607FACCD1AFB9204008FA782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A4A35DCC0FBA9C7200D152C /* Pods_AppIosW2InimigosDessespero_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607FACE21AFB9204008FA782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7655DC64FAB6D917FC79065A /* Pods_AppIosW2InimigosDessespero_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5774636E2226CBC300A9B71D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5774636F2226CBC300A9B71D /* Home */,
+				577463782226CBC300A9B71D /* Faqs */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5774636F2226CBC300A9B71D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				577463702226CBC300A9B71D /* Presenter */,
+				577463722226CBC300A9B71D /* Controller */,
+				577463742226CBC300A9B71D /* Model */,
+				577463762226CBC300A9B71D /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		577463702226CBC300A9B71D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				577463712226CBC300A9B71D /* AppIosW2InimigosDessesperoExamplePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		577463722226CBC300A9B71D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				577463732226CBC300A9B71D /* AppIosW2InimigosDessesperoExampleViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		577463742226CBC300A9B71D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				577463752226CBC300A9B71D /* AppIosW2InimigosDessesperoExampleModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		577463762226CBC300A9B71D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				577463772226CBC300A9B71D /* AppIosW2InimigosDessesperoExampleViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		577463782226CBC300A9B71D /* Faqs */ = {
+			isa = PBXGroup;
+			children = (
+				577463792226CBC300A9B71D /* Presenter */,
+				5774637B2226CBC300A9B71D /* Controller */,
+				5774637D2226CBC300A9B71D /* Model */,
+				5774637F2226CBC300A9B71D /* View */,
+			);
+			path = Faqs;
+			sourceTree = "<group>";
+		};
+		577463792226CBC300A9B71D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				5774637A2226CBC300A9B71D /* AppIosW2InimigosDessesperoFaqsExamplePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		5774637B2226CBC300A9B71D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5774637C2226CBC300A9B71D /* AppIosW2InimigosDessesperoFaqsExampleViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5774637D2226CBC300A9B71D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5774637E2226CBC300A9B71D /* AppIosW2InimigosDessesperoFaqsExampleModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5774637F2226CBC300A9B71D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				577463802226CBC300A9B71D /* AppIosW2InimigosDessesperoFaqsExampleViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		57F34E792225DE0800454D8B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				57F34E7A2225DE0800454D8B /* Coordinator */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		57F34E7A2225DE0800454D8B /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				57F34E7B2225DE0800454D8B /* AppIosW2InimigosDessesperoExampleCoordinator.swift */,
+				57F34E7C2225DE0800454D8B /* AppIosW2InimigosDessesperoExampleAppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		607FACC71AFB9204008FA782 = {
+			isa = PBXGroup;
+			children = (
+				607FACF51AFB993E008FA782 /* Podspec Metadata */,
+				607FACD21AFB9204008FA782 /* Example for AppIosW2InimigosDessespero */,
+				607FACE81AFB9204008FA782 /* Tests */,
+				607FACD11AFB9204008FA782 /* Products */,
+				816EC6876E9E9DB08C533333 /* Pods */,
+				F913171708924D7BD39FEFEC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		607FACD11AFB9204008FA782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD01AFB9204008FA782 /* AppIosW2InimigosDessespero_Example.app */,
+				607FACE51AFB9204008FA782 /* AppIosW2InimigosDessespero_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		607FACD21AFB9204008FA782 /* Example for AppIosW2InimigosDessespero */ = {
+			isa = PBXGroup;
+			children = (
+				5774636E2226CBC300A9B71D /* App */,
+				57F34E912225DE0900454D8B /* AppIosW2InimigosDessesperoAppDelegate.swift */,
+				57F34E792225DE0800454D8B /* Utils */,
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				607FACD31AFB9204008FA782 /* Supporting Files */,
+			);
+			name = "Example for AppIosW2InimigosDessespero";
+			path = AppIosW2InimigosDessespero;
+			sourceTree = "<group>";
+		};
+		607FACD31AFB9204008FA782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD41AFB9204008FA782 /* AppIosW2InimigosDessespero-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		607FACE81AFB9204008FA782 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				607FACE91AFB9204008FA782 /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		607FACE91AFB9204008FA782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57ED041E2226FD1200614168 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		816EC6876E9E9DB08C533333 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BAB63551CBE96DAAD772E0A /* Pods-AppIosW2InimigosDessespero_Example.debug.xcconfig */,
+				6C41A21978ECAEFBB0145DF9 /* Pods-AppIosW2InimigosDessespero_Example.release.xcconfig */,
+				A20165084117A73C0C11CBCB /* Pods-AppIosW2InimigosDessespero_Tests.debug.xcconfig */,
+				EDE68A9578E8E61375427382 /* Pods-AppIosW2InimigosDessespero_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		F913171708924D7BD39FEFEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCFCA5C2340BCA7FAC7DF47A /* Pods_AppIosW2InimigosDessespero_Example.framework */,
+				FB2C294C18547CBC81AFE83B /* Pods_AppIosW2InimigosDessespero_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		607FACCF1AFB9204008FA782 /* AppIosW2InimigosDessespero_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "AppIosW2InimigosDessespero_Example" */;
+			buildPhases = (
+				736844744AB8F6BFB3AB245F /* [CP] Check Pods Manifest.lock */,
+				607FACCC1AFB9204008FA782 /* Sources */,
+				607FACCD1AFB9204008FA782 /* Frameworks */,
+				607FACCE1AFB9204008FA782 /* Resources */,
+				9CE112A223C77CA40017B770 /* SwiftLint */,
+				9775CA9EB07D4A7663E1D604 /* [CP] Embed Pods Frameworks */,
+				99F9F63EBCBF3C5CE380E088 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppIosW2InimigosDessespero_Example;
+			productName = AppIosW2InimigosDessespero;
+			productReference = 607FACD01AFB9204008FA782 /* AppIosW2InimigosDessespero_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		607FACE41AFB9204008FA782 /* AppIosW2InimigosDessespero_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "AppIosW2InimigosDessespero_Tests" */;
+			buildPhases = (
+				3C645B48ABA2F5A576F12CE0 /* [CP] Check Pods Manifest.lock */,
+				607FACE11AFB9204008FA782 /* Sources */,
+				607FACE21AFB9204008FA782 /* Frameworks */,
+				607FACE31AFB9204008FA782 /* Resources */,
+				2E4B598789BFABE4A69DC492 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
+			);
+			name = AppIosW2InimigosDessespero_Tests;
+			productName = Tests;
+			productReference = 607FACE51AFB9204008FA782 /* AppIosW2InimigosDessespero_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		607FACC81AFB9204008FA782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AppIosW2InimigosDessespero;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MercadoLibre;
+				TargetAttributes = {
+					607FACCF1AFB9204008FA782 = {
+						DevelopmentTeam = T9VUHG6RU2;
+						LastSwiftMigration = 1010;
+					};
+					607FACE41AFB9204008FA782 = {
+						LastSwiftMigration = 1130;
+						TestTargetID = 6003F589195388D20070C39A;
+					};
+				};
+			};
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "AppIosW2InimigosDessespero" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 607FACC71AFB9204008FA782;
+			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				607FACCF1AFB9204008FA782 /* AppIosW2InimigosDessespero_Example */,
+				607FACE41AFB9204008FA782 /* AppIosW2InimigosDessespero_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		607FACCE1AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				577463842226CBC300A9B71D /* AppIosW2InimigosDessesperoExampleViewController.xib in Resources */,
+				577463882226CBC300A9B71D /* AppIosW2InimigosDessesperoFaqsExampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607FACE31AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E4B598789BFABE4A69DC492 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppIosW2InimigosDessespero_Tests/Pods-AppIosW2InimigosDessespero_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppIosW2InimigosDessespero_Tests/Pods-AppIosW2InimigosDessespero_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C645B48ABA2F5A576F12CE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppIosW2InimigosDessespero_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		736844744AB8F6BFB3AB245F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppIosW2InimigosDessespero_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9775CA9EB07D4A7663E1D604 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppIosW2InimigosDessespero_Example/Pods-AppIosW2InimigosDessespero_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Adjust/Adjust.framework",
+				"${BUILT_PRODUCTS_DIR}/AndesUI/AndesUI.framework",
+				"${BUILT_PRODUCTS_DIR}/AndesUIDraftModal/AndesUIDraftModal.framework",
+				"${BUILT_PRODUCTS_DIR}/Base64/Base64.framework",
+				"${BUILT_PRODUCTS_DIR}/Bugsnag/Bugsnag.framework",
+				"${BUILT_PRODUCTS_DIR}/BugsnagNetworkRequestPlugin/BugsnagNetworkRequestPlugin.framework",
+				"${BUILT_PRODUCTS_DIR}/CGRPCZlib/CGRPCZlib.framework",
+				"${BUILT_PRODUCTS_DIR}/CNIOAtomics/CNIOAtomics.framework",
+				"${BUILT_PRODUCTS_DIR}/CNIOBoringSSL/CNIOBoringSSL.framework",
+				"${BUILT_PRODUCTS_DIR}/CNIOBoringSSLShims/CNIOBoringSSLShims.framework",
+				"${BUILT_PRODUCTS_DIR}/CNIODarwin/CNIODarwin.framework",
+				"${BUILT_PRODUCTS_DIR}/CNIOHTTPParser/CNIOHTTPParser.framework",
+				"${BUILT_PRODUCTS_DIR}/CNIOLinux/CNIOLinux.framework",
+				"${BUILT_PRODUCTS_DIR}/CNIOWindows/CNIOWindows.framework",
+				"${BUILT_PRODUCTS_DIR}/DataPrivacyHelper/DataPrivacyHelper.framework",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/FXBlurView/FXBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseABTesting/FirebaseABTesting.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseDynamicLinks/FirebaseDynamicLinks.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebasePerformance/FirebasePerformance.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseRemoteConfig/FirebaseRemoteConfig.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/JRSwizzle/JRSwizzle.framework",
+				"${BUILT_PRODUCTS_DIR}/JWT/JWT.framework",
+				"${BUILT_PRODUCTS_DIR}/Logging/Logging.framework",
+				"${PODS_ROOT}/MLAnalytics/MLGAFramework/MLGAFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/MLAnalytics/MLAnalytics.framework",
+				"${BUILT_PRODUCTS_DIR}/MLAuthentication/MLAuthentication.framework",
+				"${BUILT_PRODUCTS_DIR}/MLCollaborators/MLCollaborators.framework",
+				"${BUILT_PRODUCTS_DIR}/MLCommons/MLCommons.framework",
+				"${BUILT_PRODUCTS_DIR}/MLFirebase/MLFirebase.framework",
+				"${BUILT_PRODUCTS_DIR}/MLGodzippa/MLGodzippa.framework",
+				"${BUILT_PRODUCTS_DIR}/MLLocalStorage/MLLocalStorage.framework",
+				"${BUILT_PRODUCTS_DIR}/MLMelidata/MLMelidata.framework",
+				"${BUILT_PRODUCTS_DIR}/MLMetrics/MLMetrics.framework",
+				"${BUILT_PRODUCTS_DIR}/MLNavigationBarTransition/MLNavigationBarTransition.framework",
+				"${BUILT_PRODUCTS_DIR}/MLNetworking/MLNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MLOnDemandResources/MLOnDemandResources.framework",
+				"${BUILT_PRODUCTS_DIR}/MLPlace/MLPlace.framework",
+				"${BUILT_PRODUCTS_DIR}/MLReachability/MLReachability.framework",
+				"${BUILT_PRODUCTS_DIR}/MLRemoteConfigurations/MLRemoteConfigurations.framework",
+				"${BUILT_PRODUCTS_DIR}/MLSecurity/MLSecurity.framework",
+				"${BUILT_PRODUCTS_DIR}/MLUI/MLUI.framework",
+				"${BUILT_PRODUCTS_DIR}/MLUIComponents/MLUIComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/MLWebkit/MLWebkit.framework",
+				"${BUILT_PRODUCTS_DIR}/MPDynamicSkeleton/MPDynamicSkeleton.framework",
+				"${BUILT_PRODUCTS_DIR}/MobileCryptography/MobileCryptography.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/ReauthNativeAdapter/ReauthNativeAdapter.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftNIO/NIO.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftNIOConcurrencyHelpers/NIOConcurrencyHelpers.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftNIOCore/NIOCore.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftNIOEmbedded/NIOEmbedded.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftNIOExtras/NIOExtras.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftNIOFoundationCompat/NIOFoundationCompat.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftNIOHPACK/NIOHPACK.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftNIOHTTP1/NIOHTTP1.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftNIOHTTP2/NIOHTTP2.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftNIOPosix/NIOPosix.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftNIOSSL/NIOSSL.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftNIOTLS/NIOTLS.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftNIOTransportServices/NIOTransportServices.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftProtobuf/SwiftProtobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/_NIODataStructures/_NIODataStructures.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Swift/GRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBAEMKit/FBAEMKit.framework/FBAEMKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework/FBSDKCoreKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKCoreKit_Basics/FBSDKCoreKit_Basics.framework/FBSDKCoreKit_Basics",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Adjust.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AndesUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AndesUIDraftModal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Base64.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bugsnag.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BugsnagNetworkRequestPlugin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CGRPCZlib.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CNIOAtomics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CNIOBoringSSL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CNIOBoringSSLShims.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CNIODarwin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CNIOHTTPParser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CNIOLinux.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CNIOWindows.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DataPrivacyHelper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FXBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseABTesting.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseDynamicLinks.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebasePerformance.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseRemoteConfig.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JRSwizzle.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JWT.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Logging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLGAFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLAnalytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLAuthentication.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLCollaborators.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLCommons.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLFirebase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLGodzippa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLLocalStorage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLMelidata.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLMetrics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLNavigationBarTransition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLOnDemandResources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLPlace.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLReachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLRemoteConfigurations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLSecurity.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLUIComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLWebkit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MPDynamicSkeleton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MobileCryptography.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReauthNativeAdapter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIOConcurrencyHelpers.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIOCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIOEmbedded.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIOExtras.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIOFoundationCompat.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIOHPACK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIOHTTP1.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIOHTTP2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIOPosix.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIOSSL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIOTLS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIOTransportServices.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftProtobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/_NIODataStructures.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBAEMKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit_Basics.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppIosW2InimigosDessespero_Example/Pods-AppIosW2InimigosDessespero_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99F9F63EBCBF3C5CE380E088 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppIosW2InimigosDessespero_Example/Pods-AppIosW2InimigosDessespero_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CE112A223C77CA40017B770 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  (cd ..; swiftlint autocorrect)\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		607FACCC1AFB9204008FA782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F34E932225DE0900454D8B /* AppIosW2InimigosDessesperoExampleCoordinator.swift in Sources */,
+				57F34E942225DE0900454D8B /* AppIosW2InimigosDessesperoExampleAppCoordinator.swift in Sources */,
+				577463862226CBC300A9B71D /* AppIosW2InimigosDessesperoFaqsExampleViewController.swift in Sources */,
+				577463832226CBC300A9B71D /* AppIosW2InimigosDessesperoExampleModel.swift in Sources */,
+				577463812226CBC300A9B71D /* AppIosW2InimigosDessesperoExamplePresenter.swift in Sources */,
+				577463822226CBC300A9B71D /* AppIosW2InimigosDessesperoExampleViewController.swift in Sources */,
+				577463852226CBC300A9B71D /* AppIosW2InimigosDessesperoFaqsExamplePresenter.swift in Sources */,
+				57F34E9E2225DE0900454D8B /* AppIosW2InimigosDessesperoAppDelegate.swift in Sources */,
+				577463872226CBC300A9B71D /* AppIosW2InimigosDessesperoFaqsExampleModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607FACE11AFB9204008FA782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* AppIosW2InimigosDessespero_Example */;
+			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607FACDF1AFB9204008FA782 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		607FACED1AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		607FACEE1AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		607FACF01AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BAB63551CBE96DAAD772E0A /* Pods-AppIosW2InimigosDessespero_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "AppIosW2InimigosDessespero/AppIosW2InimigosDessespero-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mercadolibre.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		607FACF11AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C41A21978ECAEFBB0145DF9 /* Pods-AppIosW2InimigosDessespero_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "AppIosW2InimigosDessespero/AppIosW2InimigosDessespero-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mercadolibre.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		607FACF31AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20165084117A73C0C11CBCB /* Pods-AppIosW2InimigosDessespero_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mercadolibre.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppIosW2InimigosDessespero_Example.app/AppIosW2InimigosDessespero_Example";
+			};
+			name = Debug;
+		};
+		607FACF41AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDE68A9578E8E61375427382 /* Pods-AppIosW2InimigosDessespero_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mercadolibre.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppIosW2InimigosDessespero_Example.app/AppIosW2InimigosDessespero_Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "AppIosW2InimigosDessespero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACED1AFB9204008FA782 /* Debug */,
+				607FACEE1AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "AppIosW2InimigosDessespero_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACF01AFB9204008FA782 /* Debug */,
+				607FACF11AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "AppIosW2InimigosDessespero_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACF31AFB9204008FA782 /* Debug */,
+				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
+}
